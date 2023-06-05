@@ -1,11 +1,18 @@
 body{
     margin: 0px;
-    background:#0C264C;
+    background-color: #0C264C;
+    opacity: 1;
+    background-image: radial-gradient(#fff 1.55px, #0C264C 1.55px);
+    background-size: 31px 31px;
 }
 #menuBar{
+    
     height: 100px;
     width: 100%;
-    background:white
+    background:white;
+    box-shadow: 1px 19px 39px 19px rgba(255,255,255,0.69);
+    -webkit-box-shadow: 1px 5px 20px 5px rgba(255,255,255,0.69);
+    -moz-box-shadow: 1px 5px 20px 5px rgba(255,255,255,0.69);
     
 }
 #logo{
@@ -41,6 +48,7 @@ body{
     cursor: pointer;
     color:orange;
     font-size: larger;
+    text-shadow: 0px 0px 9px orange;
 }
 .thmenu:link{
     background:#ffff;
